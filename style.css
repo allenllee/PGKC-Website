@@ -29,7 +29,7 @@ body {
 	padding: 0px;
 }
 
-.nav ul {
+.navigation ul {
 	list-style:none;
 	margin: 0px;
 	padding: 0px;
@@ -38,7 +38,7 @@ body {
 	line-height: 200px;
 }
 
-.nav ul img {
+.navigation ul img {
 	height: 160px;
 	float: left;
 	margin-left: 35px;
@@ -47,7 +47,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.nav li {
+.navigation li {
 	display: inline;
 	padding: 12px;
 	margin: 0px;
@@ -55,17 +55,17 @@ body {
 	font-family: verdana;
 }
 
-.nav a {
+.navigation a {
 	text-decoration:none;
 	color: black;
 	padding: 10px;
 }
 
-.nav li a:hover{
+.navigation li a:hover{
 	background-color: #f29200;
 }
 
-.nav li a:active {
+.navigation  li a:active {
 	background-color: #f29200;
 	color: #f29200;
 }
