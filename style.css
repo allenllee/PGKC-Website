@@ -1,0 +1,101 @@
+.container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 970px;
+}
+
+header {
+	//background-color: #f58025;
+	text-align: right;
+	font-family: garamond;
+	margin: 0px;
+	padding: 10px;
+	width:950;
+	background: rgba(245,128,37,1);
+	background: -moz-linear-gradient(top, rgba(245,128,37,1) 0%, rgba(248,80,50,1) 34%, rgba(245,128,37,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,128,37,1)), color-stop(34%, rgba(248,80,50,1)), color-stop(100%, rgba(245,128,37,1)));
+	background: -webkit-linear-gradient(top, rgba(245,128,37,1) 0%, rgba(248,80,50,1) 34%, rgba(245,128,37,1) 100%);
+	background: -o-linear-gradient(top, rgba(245,128,37,1) 0%, rgba(248,80,50,1) 34%, rgba(245,128,37,1) 100%);
+	background: -ms-linear-gradient(top, rgba(245,128,37,1) 0%, rgba(248,80,50,1) 34%, rgba(245,128,37,1) 100%);
+	background: linear-gradient(to bottom, rgba(245,128,37,1) 0%, rgba(248,80,50,1) 34%, rgba(245,128,37,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f58025', endColorstr='#f58025', GradientType=0 );
+	color: white;
+}
+
+body {
+	background-color: #f29200;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav ul {
+	list-style:none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: #ffffff;
+	line-height: 200px;
+}
+
+.nav ul img {
+	height: 160px;
+	float: left;
+	margin-left: 35px;
+	margin-right:0px;	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.nav li {
+	display: inline;
+	padding: 12px;
+	margin: 0px;
+	height: 40px;
+	font-family: verdana;
+}
+
+.nav a {
+	text-decoration:none;
+	color: black;
+	padding: 10px;
+}
+
+.nav li a:hover{
+	background-color: #f29200;
+}
+
+.nav li a:active {
+	background-color: #f29200;
+	color: #f29200;
+}
+
+.content {
+	height: auto;
+	width: 970px;
+	padding: 5px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-right: 0px;
+	background-color: #ffffff;
+}
+
+.content h1 {
+	font-family: verdana;
+}
+
+.content h2 {
+	font-family: verdana;
+	margin: 0px;
+}
+
+.content p {
+	margin: 0px;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+}
